@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+h1 {
+    text-align: center;
+    font-size: 62px;
+    color: lightgray;
+}
+ul {
+    width: 400px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+
+    background-color: white;
+}
+li {
+    padding: 10px;
+    text-transform: capitalize;
+
+    display: flex;
+    justify-content: space-between;
+}
+i {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.input-group-text {
+    background-color: darkblue;
+    border-color: gold;
+    color: gold;
+}
