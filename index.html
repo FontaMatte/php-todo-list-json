@@ -18,8 +18,11 @@
                     Todo List
                 </h1>
                 <ul>
-                    <li v-for="toDo in toDoList">
-                        {{ toDo.toDo }}
+                    <li v-for="(toDo, index) in toDoList">
+                        <div @click="taskDone(index)"
+                        :class="{'done': toDo.done}"> 
+                            {{ toDo.toDo }} 
+                        </div>
                         <i class="fa-solid fa-trash"></i>
                     </li>
                 </ul>

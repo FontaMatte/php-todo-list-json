@@ -1,7 +1,7 @@
 [
     {
         "toDo": "fare la spesa",
-        "done": false
+        "done": true
     }, 
     {
         "toDo": "stendere i panni",
@@ -9,7 +9,7 @@
     }, 
     {
         "toDo": "dare da mangiare al cane",
-        "done": false
+        "done": true
     }, 
     {
         "toDo": "pagare la bolletta",

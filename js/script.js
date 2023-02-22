@@ -9,6 +9,10 @@ createApp({
     },
     methods: {
 
+        taskDone(index) {
+            this.toDoList[index].done = !this.toDoList[index].done;
+        }
+
     },
     created() {
         axios
