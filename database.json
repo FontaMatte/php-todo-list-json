@@ -1,0 +1,26 @@
+[
+    {
+        "toDo": "fare la spesa",
+        "done": false
+    }, 
+    {
+        "toDo": "stendere i panni",
+        "done": false
+    }, 
+    {
+        "toDo": "dare da mangiare al cane",
+        "done": false
+    }, 
+    {
+        "toDo": "pagare la bolletta",
+        "done": false
+    }, 
+    {
+        "toDo": "pulire la camera",
+        "done": false
+    }, 
+    {
+        "toDo": "fare benzina all'auto",
+        "done": false
+    }
+]
