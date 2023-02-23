@@ -1,6 +1,6 @@
 <?php
 
-    //aquisisco i dati in formato json da 'database.json
+    //aquisisco i dati in formato json da 'database.json'
     $toDoListString = file_get_contents('database.json'); 
 
     // converto i dati da formato json ad array associativo php
