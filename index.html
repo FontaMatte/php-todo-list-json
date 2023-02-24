@@ -23,7 +23,7 @@
                         :class="{'done': toDo.done}"> 
                             {{ toDo.toDo }} 
                         </div>
-                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-trash" @click="deleteTask(index)"></i>
                     </li>
                 </ul>
                 <form action="" method="post" @submit.prevent="addTask()">
