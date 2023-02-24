@@ -43,7 +43,7 @@ createApp({
                 )
                 .then((response) => {
 
-                    console.log(response);
+                    this.toDoList = response.data.toDoList
 
                 });
         },
@@ -64,10 +64,9 @@ createApp({
                 })
                 .then((response) => {
 
-                    console.log(response)
+                    console.log(response);
 
                 });
-
         },
 
     },
